@@ -32,4 +32,4 @@ CREATE TABLE stock_price (
 
 CREATE INDEX ON stock_price(stock_id, dt DESC);
 
-SELECT create_hypertable('stock price', 'dt');
+SELECT create_hypertable('stock_price', 'dt');
